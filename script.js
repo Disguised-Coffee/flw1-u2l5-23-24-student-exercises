@@ -6,3 +6,8 @@ let menuItems = ["apples", "pretzels", "olives", "salmon and brocolli", "chicken
 //    - Create a list item.
 //    - Update the inner html of the created element.
 //    - Append to the menu.
+menuItems.forEach((food)=>{
+  let blah = document.createElement("li");
+  blah.innerHTML = food;
+  menu.appendChild(blah);
+});
